@@ -1,7 +1,8 @@
 # 🔢 Number Guessing Game App
 
-Hi Contra Family 👋
-This is a fun **Number Guessing Game App** where the app itself tries to guess the number chosen by the user.
+This is a **Number Guessing Game App** built with **React Native** that challenges your device to guess the number
+you’ve chosen. The app takes multiple turns to find the correct number, and when it does, it tells you exactly how many
+tries it took!
 
 ---
 
@@ -24,40 +25,42 @@ This is a fun **Number Guessing Game App** where the app itself tries to guess t
 
 ## 📖 Overview
 
-This app is an interactive number game built with **React Native** (and optionally **Expo**).
-The concept is simple yet engaging — the user thinks of a number, and the app takes multiple turns to **guess the
-correct number**.
+The **Number Guessing Game App** is a fun and interactive project where the app itself plays the role of the guesser.
+The user secretly chooses a number, and the app uses logical steps to **guess the number through multiple rounds**.
 
-The goal of the game is for the app to determine the user’s number in as few tries as possible.
+Once the correct number is guessed, the app displays how many attempts were made — and allows the user to start again
+for endless replayability.
 
 ---
 
 ## 🎮 Gameplay
 
-1. The user enters a number of their choice.
-2. The app begins to **guess** the number using a logical approach.
-3. The user provides feedback (higher or lower) until the app guesses correctly.
-4. Once the correct number is guessed, the app displays:
-    - 🎯 The correct number
-    - 🔁 The number of attempts it took
-5. The user can then replay the game as many times as they wish.
+1. The user enters a number at the start of the game.
+2. The app begins to make guesses.
+3. The user provides hints (whether the number is higher or lower).
+4. The app continues guessing until it finds the correct number.
+5. When guessed correctly:
+    - 🎯 The correct number is revealed.
+    - 🔢 The total number of guesses is displayed.
+6. The user can restart and play again as many times as they like.
 
 ---
 
 ## ✨ Features
 
--   🧠 Intelligent number-guessing logic
--   📊 Displays total number of guesses
--   🔁 Replay option for multiple game sessions
--   📱 Simple, interactive user interface
+-   🤖 App automatically guesses your chosen number
+-   🔁 Unlimited replay functionality
+-   🧮 Displays the total number of attempts taken
+-   📱 Clean and simple user interface
+-   ⚡ Fast performance and instant feedback
 
 ---
 
 ## ⚙️ Tech Stack
 
 -   ⚛️ **React Native**
--   🚀 **Expo** (for development and testing)
--   🎨 **React Native Components** for layout and styling
+-   🚀 **Expo**
+-   🎨 **React Native Components** for UI styling
 
 ---
 
@@ -67,10 +70,10 @@ To run this project locally, follow these steps:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/number-game-app.git
+git clone https://github.com/<your-username>/number-guessing-game.git
 
 # 2. Navigate into the project directory
-cd number-game-app
+cd number-guessing-game
 
 # 3. Install dependencies
 npm install
